@@ -23,6 +23,21 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+.venv/
+venv/
+
+# Environment
+.env
+
+# Data (keep structure, ignore generated data)
+data/sentiment_results.json
+data/agent.log
+
 # .NET Core
 project.lock.json
 project.fragment.lock.json
